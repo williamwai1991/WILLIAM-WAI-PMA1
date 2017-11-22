@@ -36,7 +36,7 @@ https://www.youtube.com/watch?v=xEHHdpxW7iA
 * */
 public class MainActivity extends AppCompatActivity implements SharedPreferences.OnSharedPreferenceChangeListener {
 
-    private static final String API_KEY = "d057b296ebaefbc4ae7d79b8dbb0b6aa";
+    private static final String API_KEY = "";
     private static String URL_DATA = null;
 
 
