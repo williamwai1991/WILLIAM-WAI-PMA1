@@ -28,6 +28,12 @@ import java.util.List;
 
 import williamwai.sc_recyclerviewproject.R;
 
+
+/*
+REFERENCES TO YOUTUBE VIDEOS THAT HELPED ME TO COMPLETE THIS ASSIGNMENT
+https://www.youtube.com/watch?v=5T144CbTwjc
+https://www.youtube.com/watch?v=xEHHdpxW7iA
+* */
 public class MainActivity extends AppCompatActivity implements SharedPreferences.OnSharedPreferenceChangeListener {
 
     private static final String API_KEY = "";
