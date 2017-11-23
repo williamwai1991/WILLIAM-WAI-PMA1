@@ -13,10 +13,10 @@ import williamwai.sc_recyclerviewproject.R;
 public class MovieDetails extends AppCompatActivity {
 
     ImageView imageView;
-    TextView tv_Name;
-    TextView tv_Overview;
-    TextView tv_Rating;
-    TextView tv_Release;
+    TextView tvName;
+    TextView tvOverview;
+    TextView tvRating;
+    TextView tvRelease;
     String poster;
 
 
@@ -32,21 +32,21 @@ public class MovieDetails extends AppCompatActivity {
 
         }
 
-        imageView = (ImageView) findViewById(R.id.movie_image);
-        tv_Name = (TextView) findViewById(R.id.movie_name);
-        tv_Overview = (TextView) findViewById(R.id.movie_overview);
-        tv_Rating = (TextView) findViewById(R.id.movie_rating);
-        tv_Release = (TextView) findViewById(R.id.movie_release);
+        imageView = (ImageView) findViewById(R.id.movieImage);
+        tvName = (TextView) findViewById(R.id.movieName);
+        tvOverview = (TextView) findViewById(R.id.movieOverview);
+        tvRating = (TextView) findViewById(R.id.movieRating);
+        tvRelease = (TextView) findViewById(R.id.movieRelease);
 
 
         //imageView.setImageResource(getIntent().getIntExtra("img_id", 00));
 
 
 
-        tv_Name.setText("Title : " + getIntent().getStringExtra("name"));
-        tv_Overview.setText("Plot synopsis :" + getIntent().getStringExtra("overview"));
-        tv_Rating.setText("Vote Average :" + getIntent().getStringExtra("vote_average"));
-        tv_Release.setText("Release Date :" + getIntent().getStringExtra("release_date"));
+        tvName.setText("Title : " + getIntent().getStringExtra("name"));
+        tvOverview.setText("Plot synopsis :" + getIntent().getStringExtra("overview"));
+        tvRating.setText("Vote Average :" + getIntent().getStringExtra("vote_average"));
+        tvRelease.setText("Release Date :" + getIntent().getStringExtra("release_date"));
 
 
         poster = getIntent().getStringExtra("img_id");
